@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mr Hacker</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 0; padding: 20px; }
+    header { text-align: center; background: #333; color: white; padding: 20px 0; font-size: 24px; }
+    .subjects { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px; }
+    .subject { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; width: 200px; }
+    a { text-decoration: none; color: #333; font-weight: bold; }
+    a:hover { color: #007bff; }
+  </style>
+</head>
+<body>
+  <header>Mr Hemanta</header>
+  <h2 style="text-align:center;">Select a Subject to View Notes</h2>
+  <div class="subjects">
+    <div class="subject"><a href="notes/dsa.html">DSA</a></div>
+    <div class="subject"><a href="notes/java.html">Java</a></div>
+    <div class="subject"><a href="notes/cloud.html">Cloud Computing</a></div>
+    <div class="subject"><a href="notes/de.html">Digital Electronics</a></div>
+    <div class="subject"><a href="notes/maths.html">Discrete Mathematics</a></div>
+  </div>
+</body>
+</html>
